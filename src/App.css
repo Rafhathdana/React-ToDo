@@ -32,7 +32,33 @@ body {
   align-items: center;
   justify-content: center;
 }
+.taskBg .taskText {
+  flex: 1;
+}
 .taskBg .done .taskText {
   text-decoration: line-through;
   opacity: 0.3;
+}
+.taskBg .iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  width: auto;
+  display: inline-block;
+}
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+.taskBg .iconsWrap span:hover {
+  color: yellow;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.taskBg .done .iconsWrap span {
+  color: #000000;
 }
