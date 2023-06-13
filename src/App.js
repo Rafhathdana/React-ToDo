@@ -16,7 +16,7 @@ function App() {
 
   const addTask = () => {
     if (newTask) {
-      let num = toDo.length + 1;
+      let num = toDo.length > 0 ? toDo[toDo.length - 1].id + 1 : 1;
       let newEntry = { id: num, title: newTask, status: false };
       setToDo([...toDo, newEntry]);
       setNewTask("");
