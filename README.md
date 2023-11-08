@@ -26,7 +26,7 @@ Start the development server:
 npm start
 Open your web browser and visit http://localhost:3000 to access the Todo app.
 
-Usage
+## Usage
 Add a Task: Enter a task description in the input field and press Enter or click the "Add" button to add a new task.
 
 Mark as Complete: Click the checkbox next to a task to mark it as completed.
@@ -35,13 +35,15 @@ Remove Task: Click the "Delete" button next to a task to remove it from the list
 
 Filter Tasks: Use the filter buttons to view all tasks, completed tasks, or tasks yet to be completed.
 
-Contributing
-Contributions are welcome! If you have any bug reports, feature requests, or suggestions, please open an issue or submit a pull request.
 
-License
-This project is open-source and available under the MIT License.
+## Contributing
 
-Acknowledgements
-Special thanks to the React community for their support and contributions.
-Contact
-If you have any questions or need assistance, please feel free to contact us at your.email@example.com.
+Contributions to WeatherApp are welcome! If you have any bug reports, feature requests, or suggestions, please open an issue or submit a pull request.
+
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, please reach out to our team at [danarafha@gmail.com](mailto:danarafha@gmail.com).
